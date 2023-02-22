@@ -1,0 +1,223 @@
+<main style="background-color: #dfdfe0;">
+    <div class="px-4 py-5  text-center">
+        <h1 class="display-5 fw-bold" style="color: rgba(0,0,0,0.55);">Hola un gusto atenderte!</h1>
+        <div class="col-lg-6 mx-auto mb-4">
+            <p class="lead mb-4">Favor de llenar nuestro formulario y poder lograr tener todos los datos para tu pedido
+            </p>
+        </div>
+        <div class="col-lg-6 mx-auto">
+            <a class="btn btn-outline-light btn-floating m-1 bg-dark"
+                href="https://www.facebook.com/profile.php?id=100041258748192" target="_blank" role="button"><i
+                    class="fab fa-facebook-f"></i></a>
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1 bg-dark" href="https://www.instagram.com/michoscake1/"
+                target="_blank" role="button"><i class="fab fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <div class="container pb-5">
+        <div class="row  pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h4>Informacion General</h4>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="nombre_cliente">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre_cliente" name="nombre_cliente"
+                                        placeholder="..." />
+                                </div>
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="apellidos_cliente">Apellidos</label>
+                                    <input type="text" class="form-control" id="apellidos_cliente"
+                                        name="apellidos_cliente" placeholder="..." />
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono_cliente">Telefono
+                                <small class="text-muted">(614) 9999999</small></label>
+                            <input type="number" class="form-control" id="telefono_cliente"
+                                placeholder="Enter Phone Number" />
+                        </div>
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="form-group">
+                                    <label for="fecha_evento">Fecha del evento
+                                        <small class="text-muted">dd/mm/yyyy</small></label>
+                                    <input type="date" class="form-control" id="fecha_evento" name="fecha_evento" />
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label for="hora_evento">Hora del evento</label>
+                                    <input type="time" class="form-control" id="hora_evento" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="tipo_celebracion">Tipo de Celebracion</label>
+                            <select class="form-control" name="tipo_celebracion" id="tipo_celebracion">
+                                <option value="boda">Boda</option>
+                                <option value="cumpleanos">Cumpleanos</option>
+                                <option value="aniversario">Aniversario</option>
+                                <option value="bautizo">Bautizo</option>
+                                <option value="otro">Otro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="tipo_entrega">Tipo de Entrega</label>
+                            <select class="form-control" name="tipo_entrega" id="tipo_entrega">
+                                <option value="entrega_domicilio">Entrega a domicilio</option>
+                                <option value="recoger">Recoger</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="direccion_entrega">Direccion de Entrega</label>
+                            <input type="text" class="form-control" id="direccion_entrega" name="direccion_entrega"
+                                placeholder="..." />
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="ciudad">Ciudad</label>
+                                    <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="...">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="codigo_postal">Codigo Postal</label>
+                                    <input type="text" class="form-control" id="codigo_postal" name="codigo_postal"
+                                        placeholder="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card-body">
+                        <h4>Informacion del Pedido</h4>
+                        <br>
+                        <div class="form-group ">
+                            <label for="porciones">Cantidad de Porciones</label>
+                            <select class="form-control" name="porciones" id="porciones">
+                                <option value="12-14">12-14 porciones (1 pisos)-desde $5700</option>
+                                <option value="20-25">20-25 porciones (2 pisos)-desde $7800</option>
+                                <option value="30-35">30-35 porciones (2 pisos)-desde $8500</option>
+                                <option value="50-55">50-55 porciones (3 pisos)-desde $12100</option>
+                                <option value="70-75">70-75 porciones (4 pisos)-desde $15100</option>
+                                <option value="otro">Mayor cantidad</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="ciudad">Sabor pastel <small class="text-muted">Piso 1</small></label>
+                                    <select class="form-control" name="porciones" id="porciones">
+                                        <option value="1">Dulce de Leche-Pan de vainilla, relleno e dulce de leche
+                                        </option>
+                                        <option value="2">Apricot-Pan de cainilla, relleno de mermelada de chabacano
+                                        </option>
+                                        <option value="3">Marmoleado-Pan de vainilla y chocolate marmoleados</option>
+                                        <option value="4">Coffee-Pan de chocolate al expresso, relleno de crema de
+                                            chocolate</option>
+                                        <option value="5">Irish Creram-Pan de chocolate, relleno de buttercream suizo de
+                                            vainilla</option>
+                                        <option value="6">Red Veld-Pan de red veld, relleno de buttercream suizo de
+                                            vainilla</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="codigo_postal">Sabor pastel <small class="text-muted">Piso
+                                            2</small></label>
+                                    <select class="form-control" name="porciones" id="porciones">
+                                        <option value="1">Dulce de Leche-Pan de vainilla, relleno e dulce de leche
+                                        </option>
+                                        <option value="2">Apricot-Pan de cainilla, relleno de mermelada de chabacano
+                                        </option>
+                                        <option value="3">Marmoleado-Pan de vainilla y chocolate marmoleados</option>
+                                        <option value="4">Coffee-Pan de chocolate al expresso, relleno de crema de
+                                            chocolate</option>
+                                        <option value="5">Irish Creram-Pan de chocolate, relleno de buttercream suizo de
+                                            vainilla</option>
+                                        <option value="6">Red Veld-Pan de red veld, relleno de buttercream suizo de
+                                            vainilla</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="ciudad">Sabor pastel <small class="text-muted">Piso 3</small></label>
+                                    <select class="form-control" name="porciones" id="porciones">
+                                        <option value="1">Dulce de Leche-Pan de vainilla, relleno e dulce de leche
+                                        </option>
+                                        <option value="2">Apricot-Pan de cainilla, relleno de mermelada de chabacano
+                                        </option>
+                                        <option value="3">Marmoleado-Pan de vainilla y chocolate marmoleados</option>
+                                        <option value="4">Coffee-Pan de chocolate al expresso, relleno de crema de
+                                            chocolate</option>
+                                        <option value="5">Irish Creram-Pan de chocolate, relleno de buttercream suizo de
+                                            vainilla</option>
+                                        <option value="6">Red Veld-Pan de red veld, relleno de buttercream suizo de
+                                            vainilla</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="codigo_postal">Sabor pastel <small class="text-muted">Piso
+                                            4</small></label>
+                                    <select class="form-control" name="porciones" id="porciones">
+                                        <option value="1">Dulce de Leche-Pan de vainilla, relleno e dulce de leche
+                                        </option>
+                                        <option value="2">Apricot-Pan de cainilla, relleno de mermelada de chabacano
+                                        </option>
+                                        <option value="3">Marmoleado-Pan de vainilla y chocolate marmoleados</option>
+                                        <option value="4">Coffee-Pan de chocolate al expresso, relleno de crema de
+                                            chocolate</option>
+                                        <option value="5">Irish Creram-Pan de chocolate, relleno de buttercream suizo de
+                                            vainilla</option>
+                                        <option value="6">Red Veld-Pan de red veld, relleno de buttercream suizo de
+                                            vainilla</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-group">
+                            <label for="concepto">Concepto <small class="text-muted">Especifica la idea o el tema
+                                    del pastel</small></label>
+                            <textarea class="form-control" id="concepto" rows="1" name="concepto"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="nombre_edad">Agregar nombre y edad? <small class="text-muted">De ser asi
+                                    especifica nombre y/o Edad</small></label>
+                            <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="...">
+                        </div>
+                        <div class="form-group">
+                            <label for="comentarios">Comentarios <small class="text-muted">Especifica algo qu
+                                    edebamos saber - alergias</small></label>
+                            <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="...">
+                        </div>
+                        <div class="form-group">
+                            <label for="concepto">Rentar Base <small class="text-muted">Test</small></label>
+                            <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</main>
